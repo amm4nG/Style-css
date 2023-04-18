@@ -1,0 +1,38 @@
+.navbar-purple {
+  background-color: #6f42c1;
+}
+
+.navbar-purple .navbar-brand,
+.navbar-purple .navbar-text {
+  color: #fff;
+}
+
+.navbar-purple .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-purple .navbar-nav .nav-link:hover,
+.navbar-purple .navbar-nav .nav-link:focus {
+  color: #fff;
+}
+
+.navbar-purple .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-purple .navbar-nav .show > .nav-link,
+.navbar-purple .navbar-nav .active > .nav-link,
+.navbar-purple .navbar-nav .nav-link.show,
+.navbar-purple .navbar-nav .nav-link.active {
+  color: #fff;
+  background-color: #5a32a3;
+}
+
+.navbar-purple .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar-purple .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
